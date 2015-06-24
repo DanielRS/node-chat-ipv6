@@ -7,3 +7,7 @@ var server = new Server(addrs.channels.server);
 server.on('listening', function() {
 	console.log('Server listening for connections...');
 });
+
+server.on('message', function(message, remote) {
+	console.log(JSON.parse(message));
+});
