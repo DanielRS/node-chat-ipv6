@@ -1,5 +1,5 @@
 var
-	Server = require('../lib/Agents/Client'),
+	Client = require('../lib/Agents/Client'),
 	addrs = require('../lib/Misc/addresses');
 
 var client = new Client(addrs.channels.everyone);
