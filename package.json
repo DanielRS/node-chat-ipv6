@@ -9,7 +9,6 @@
 		"descentralized"
 	],
 	"dependencies": {
-		"merge": ">= 1.2.0",
 		"uuid": ">= 2.0.0"
 	},
 	"license": "MIT"
