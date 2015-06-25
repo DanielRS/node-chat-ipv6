@@ -11,6 +11,10 @@ client.on('server-connect', function() {
 	console.log('Trying to create a group...');
 
 	client.createGroup('Test');
+
+	client.on('group-created', function(group) {
+		console.log(group);
+	});
 });
 
 client.on('server-close', function() {
