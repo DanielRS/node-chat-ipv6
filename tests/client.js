@@ -8,6 +8,10 @@ var client = new Client(addrs.channels.everyone);
 
 client.on('server-connect', function() {
 	console.log('Connected to server');
+
+	setTimeout(functin() {
+		client.close();
+	}, 1000);
 });
 
 client.on('server-close', function() {
