@@ -10,10 +10,12 @@ client.on('server-connect', function() {
 	console.log('Connected to server');
 	console.log('Trying to create a group...');
 
-	client.createGroup('Test');
+	client.createGroup('Test 0');
+	client.createGroup('Test 1');
+	client.createGroup('Test 2');
 
 	client.on('group-created', function(group) {
-		console.log(group);
+		console.log('Group created: ' + group.name);
 	});
 });
 
