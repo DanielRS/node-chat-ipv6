@@ -8,10 +8,9 @@ var client = new Client(addrs.channels.everyone);
 
 client.on('server-connect', function() {
 	console.log('Connected to server');
+	console.log('Trying to create a group...');
 
-	setTimeout(function() {
-		client.close();
-	}, 1000);
+	client.createGroup('Test');
 });
 
 client.on('server-close', function() {
