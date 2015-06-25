@@ -6,6 +6,4 @@ var server = new Server(addrs.channels.server);
 
 server.on('listening', function() {
 	console.log('Server is listening...');
-	// server.closeHandler();
-	// console.log(server);
 });
