@@ -2,7 +2,7 @@
 	"name": "chatty-ipv6",
 	"version": "0.1.0",
 	"description": "A descentralized Chat module using IPv6",
-	"main": "lib/chat.js",
+	"main": "lib/Chat.js",
 	"keywords": [
 		"chat",
 		"ipv6",
