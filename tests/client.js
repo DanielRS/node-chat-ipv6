@@ -11,8 +11,8 @@ client.on('server-connect', function() {
 	console.log('Trying to create a group...');
 
 	client.createGroup('Test 0');
-	client.createGroup('Test 1');
-	client.createGroup('Test 2');
+	// client.createGroup('Test 1');
+	// client.createGroup('Test 2');
 
 	client.on('group-created', function(group) {
 		console.log('Group created: ' + group.name);
