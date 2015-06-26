@@ -1,12 +1,11 @@
 {
-	"name": "chatty-ipv6",
-	"version": "0.1.0",
-	"description": "A descentralized Chat module using IPv6",
+	"name": "chatty",
+	"version": "0.2.0",
+	"description": "A module for chatting through IPv6",
 	"main": "lib/Chat.js",
 	"keywords": [
 		"chat",
-		"ipv6",
-		"descentralized"
+		"ipv6"
 	],
 	"dependencies": {
 		"uuid": ">= 2.0.0"
