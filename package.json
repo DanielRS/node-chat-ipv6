@@ -10,5 +10,9 @@
 	"dependencies": {
 		"uuid": ">= 2.0.0"
 	},
-	"license": "MIT"
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DanielRS/node-chatty"
+	}
 }
