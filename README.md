@@ -24,3 +24,18 @@ client.connect();
 ```
 
 **NOTE**: You cannot run a server *and* a client on the same machine.
+
+## How to send messages?
+
+On the client you can use the following functions:
+
+| Function | Description |
+| --- | --- |
+| sendMessage(uuid, message) | Send a message to client with the specified uuid |
+| sendGroupMessage(uuid, message) | Send a message to the specified group |
+| getMessages() | Gets all received messages |
+| createGroup(name) | Creates a group with given name |
+| joinGroup(uuid) | Tries to join the group with the given uuid |
+| leaveGroup(uuid) | Leaves group with given uuid |
+| getGroups() | Get a list of available groups |
+
